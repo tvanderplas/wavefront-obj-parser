@@ -1,4 +1,5 @@
-module.exports = ParseWavefrontObj
+
+export default ParseWavefrontObj
 
 // Map .obj vertex info line names to our returned property names
 var vertexInfoNameMap = {v: 'vertexPositions', vt: 'vertexUVs', vn: 'vertexNormals'}
